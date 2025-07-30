@@ -12,10 +12,8 @@ body {
 }
 
 .hero {
-  background: #004aad;
-  color: #fff;
-  padding: 5rem 2rem;
-  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .logo {
