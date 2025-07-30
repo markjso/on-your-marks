@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
 .site-header {
   background-color: #fff;
   padding: 1rem 2rem;
