@@ -18,6 +18,13 @@ body {
   text-align: center;
 }
 
+.logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .about, .services, .testimonials, .contact {
   background: #f9f9f9;
   margin-top: 1rem;
