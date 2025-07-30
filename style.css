@@ -26,9 +26,37 @@ body {
   margin: 0 auto;
 }
 
-.site-logo {
-  width: 50px;
+.hero {
+  background-color: #f0f8ff;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-content {
+  margin-top: 2rem;
+}
+
+.hero-img {
+  max-width: 100%;
   height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.site-logo img {
+  height: 50px;
+  width: auto;
 }
 
 .main-nav ul {
