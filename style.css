@@ -98,11 +98,15 @@ h1 {
   padding: 3rem 2rem;
 }
 
+.client {
+  background: #2B1B27;
+}
+
 .about p {
   margin-bottom: 1.5em; /* or any value you like, e.g., 20px */
 }
 
-.contact, .client {
+.contact {
   margin-top: 1rem;
   padding: 3rem 2rem;
 }
