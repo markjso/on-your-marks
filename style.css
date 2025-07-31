@@ -30,7 +30,6 @@ h1 {
   margin: 0 auto;
 }
 
-.services .container,
 .testimonials .container,
 .contact .container {
   display: flex;
@@ -40,6 +39,38 @@ h1 {
 
 .about .container{
   display: block;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.service-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.service-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.service-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.service-item p {
+  margin: 0 0 0.5em 0;
 }
 
 .hero {
