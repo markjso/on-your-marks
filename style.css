@@ -30,6 +30,15 @@ h2 {
   margin: 0 auto;
 }
 
+.about .container,
+.services .container,
+.testimonials .container,
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero {
   background-color: #f0f8ff;
   padding: 2rem 0;
