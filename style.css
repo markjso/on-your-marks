@@ -30,13 +30,16 @@ h1 {
   margin: 0 auto;
 }
 
-.about .container,
 .services .container,
 .testimonials .container,
 .contact .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.about .container {
+  display: block;
 }
 
 .hero {
