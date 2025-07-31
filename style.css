@@ -99,7 +99,11 @@ h1 {
 }
 
 .client {
-  background: #2B1B27;
+  background: #2B1B27,
+}
+
+h1 .client{
+  text-color: #fff;
 }
 
 .about p {
