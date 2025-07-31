@@ -123,7 +123,7 @@ h1 {
   color: #0077cc;
 }
 
-.about, .services, .testimonials {
+.services, .testimonials {
   background: #f0f8ff;
   margin-top: 1rem;
   padding: 3rem 2rem;
@@ -160,7 +160,7 @@ h1 {
   margin-bottom: 1.5em; 
 }
 
-.contact {
+.contact, .about {
   margin-top: 1rem;
   padding: 3rem 2rem;
 }
