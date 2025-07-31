@@ -101,10 +101,10 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.site-logo {
-  max-height: 80px; 
-  height: 30px;
-  width: 50px;
+.site-logo img {
+  max-height: 80px;    /* Ensures the image fits inside header */
+  height: auto;
+  width: auto;
   display: block;
 }
 
