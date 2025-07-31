@@ -129,12 +129,35 @@ h1 {
   padding: 3rem 2rem;
 }
 
-.client .container{
-  background: #2B1B27;
+.client {
+  background-color: #000;      
+  padding: 3rem 2rem;
+  text-align: center;         
 }
 
-h1 .client{
-  text-color: #fff;
+.client h2 {
+  color: #fff;                
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.client-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;                  
+  flex-wrap: wrap;            
+}
+
+.client-logos img {
+  height: 60px;                /* Adjust as needed */
+  width: auto;
+  transition: transform 0.3s;
+}
+
+.client-logos img:hover {
+  transform: scale(1.08);
 }
 
 .about p {
