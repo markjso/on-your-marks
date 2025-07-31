@@ -38,7 +38,7 @@ h1 {
   align-items: center;
 }
 
-.about .container {
+.about .container{
   display: block;
 }
 
@@ -102,7 +102,7 @@ h1 {
   margin-bottom: 1.5em; /* or any value you like, e.g., 20px */
 }
 
-.contact {
+.contact, .client {
   margin-top: 1rem;
   padding: 3rem 2rem;
 }
